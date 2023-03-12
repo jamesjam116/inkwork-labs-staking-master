@@ -1,0 +1,33 @@
+.staked-progress {
+    height: 48px;
+    border-radius: 30px;
+    background-color: #494f56;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    .progress {
+        background-color: #6ce5e8;
+        border-radius: 30px;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 1;
+    }
+    span {
+        font-family: "Nunito";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 40px;
+        text-align: center;
+        color: #000000;
+        z-index: 2;
+        position: absolute;
+        margin-right: auto;
+        margin-left: auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
